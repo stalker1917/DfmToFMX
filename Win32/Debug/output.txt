@@ -1,0 +1,328 @@
+  object Memo1: TMemo
+Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+DataDetectorTypes = []
+    Position.X = 8
+    Position.Y = 8
+    Size.Width = 937
+    Size.Height = 538
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 10
+    Visible = False
+  end
+  object Panel2: TPanel
+    Position.X = 1024
+    Position.Y = 0
+    Size.Width = 249
+    Size.Height = 856
+    Text = 'Panel2'
+    TabOrder = 0
+    object Label1: TLabel
+StyledSettings = [Family, Style, FontColor]
+      Position.X = 98
+      Position.Y = 5
+      Size.Width = 35
+      Size.Height = 13
+      Text = #1044#1077#1085#1100' 0'
+    end
+    object Button1: TButton
+      Position.X = 64
+      Position.Y = 490
+      Size.Width = 105
+      Size.Height = 25
+      Text = #1042#1086#1081#1090#1080' '#1074' '#1073#1072#1079#1091
+      Enabled = False
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 64
+      Position.Y = 521
+      Size.Width = 105
+      Size.Height = 25
+      Text = #1055#1086#1082#1072#1079#1072#1090#1100
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Edit1: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 24
+      Position.Y = 24
+      Size.Width = 17
+      Size.Height = 21
+      ReadOnly = True
+      TabOrder = 2
+      Text = '0'
+      OnMouseUp = Edit1MouseUp
+    end
+    object Edit2: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 40
+      Position.Y = 24
+      Size.Width = 17
+      Size.Height = 21
+      ReadOnly = True
+      TabOrder = 3
+      Text = '0'
+      OnMouseUp = Edit2MouseUp
+    end
+    object Edit3: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 75
+      Position.Y = 24
+      Size.Width = 17
+      Size.Height = 21
+      ReadOnly = True
+      TabOrder = 4
+      Text = '0'
+      OnMouseUp = Edit3MouseUp
+    end
+    object Edit4: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 85
+      Position.Y = 24
+      Size.Width = 17
+      Size.Height = 21
+      ReadOnly = True
+      TabOrder = 5
+      Text = '0'
+      OnMouseUp = Edit4MouseUp
+    end
+    object Edit7: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 120
+      Position.Y = 24
+      Size.Width = 17
+      Size.Height = 21
+      ReadOnly = True
+      TabOrder = 6
+      Text = '0'
+      OnMouseUp = Edit7MouseUp
+    end
+    object Edit8: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 135
+      Position.Y = 24
+      Size.Width = 17
+      Size.Height = 21
+      ReadOnly = True
+      TabOrder = 7
+      Text = '0'
+    end
+    object Edit5: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 60
+      Position.Y = 24
+      Size.Width = 9
+      Size.Height = 21
+      TabOrder = 8
+      Text = ':'
+    end
+    object Edit6: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 108
+      Position.Y = 24
+      Size.Width = 9
+      Size.Height = 21
+      TabOrder = 9
+      Text = ':'
+    end
+    object Edit9: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 40
+      Position.Y = 359
+      Size.Width = 73
+      Size.Height = 21
+      TabOrder = 10
+      Text = 'Edit9'
+    end
+    object Edit10: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 168
+      Position.Y = 359
+      Size.Width = 73
+      Size.Height = 21
+      TabOrder = 11
+      Text = 'Edit9'
+    end
+    object Edit11: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 40
+      Position.Y = 386
+      Size.Width = 73
+      Size.Height = 21
+      TabOrder = 12
+      Text = 'Edit9'
+    end
+    object Edit12: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 168
+      Position.Y = 386
+      Size.Width = 73
+      Size.Height = 21
+      TabOrder = 13
+      Text = 'Edit9'
+    end
+    object Edit13: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 16
+      Position.Y = 417
+      Size.Width = 225
+      Size.Height = 21
+      TabOrder = 14
+      Text = 'Edit9'
+    end
+    object Edit14: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 8
+      Position.Y = 85
+      Size.Width = 225
+      Size.Height = 21
+      TabOrder = 15
+      Text = 'Edit9'
+    end
+    object Edit15: TEdit
+Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Position.X = 24
+      Position.Y = 51
+      Size.Width = 121
+      Size.Height = 21
+      TabOrder = 18
+      Text = '40000'
+    end
+    object Button4: TButton
+      Position.X = 64
+      Position.Y = 694
+      Size.Width = 105
+      Size.Height = 25
+      Text = #1055#1086#1082#1072#1079#1072#1090#1100' '#1083#1086#1075
+      TabOrder = 19
+      OnClick = Button4Click
+    end
+    object Button5: TButton
+      Position.X = 64
+      Position.Y = 663
+      Size.Width = 105
+      Size.Height = 25
+      Text = #1043#1083#1072#1074#1085#1072#1103' '#1082#1072#1088#1090#1072
+      TabOrder = 20
+      OnClick = Button5Click
+    end
+    object Button6: TButton
+      Position.X = 64
+      Position.Y = 725
+      Size.Width = 105
+      Size.Height = 25
+      Text = #1052#1077#1085#1102
+      TabOrder = 21
+      OnClick = Button6Click
+    end
+  end
+  object LeV: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 51
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 104
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1042#1088#1077#1084#1103' '#1087#1088#1086#1080#1079#1074#1086#1076#1089#1090#1074#1072
+    ReadOnly = True
+    TabOrder = 1
+    Text = ''
+    Visible = False
+  end
+  object LabeledEdit1: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 85
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 95
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1057#1090#1086#1080#1084#1086#1089#1090#1100' '#1088#1072#1073#1086#1090#1099
+    ReadOnly = True
+    TabOrder = 2
+    Text = ''
+    Visible = False
+  end
+  object LabeledEdit2: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 120
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 80
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1057#1080#1085#1080#1093' '#1088#1077#1089#1091#1088#1089#1086#1074
+    ReadOnly = True
+    TabOrder = 3
+    Text = ''
+    Visible = False
+  end
+  object LabeledEdit3: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 160
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 93
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1047#1077#1083#1105#1085#1099#1093' '#1088#1077#1089#1091#1088#1089#1086#1074
+    ReadOnly = True
+    TabOrder = 4
+    Text = ''
+    Visible = False
+  end
+  object LabeledEdit4: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 202
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 93
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1050#1088#1072#1089#1085#1099#1093' '#1088#1077#1089#1091#1088#1089#1086#1074
+    ReadOnly = True
+    TabOrder = 5
+    Text = ''
+    Visible = False
+  end
+  object LabeledEdit5: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 242
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 113
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1060#1080#1086#1083#1077#1090#1086#1074#1099#1093' '#1088#1077#1089#1091#1088#1089#1086#1074
+    ReadOnly = True
+    TabOrder = 6
+    Text = ''
+    Visible = False
+  end
+  object LabeledEdit6: TLabeledEdit
+StyledSettings = [Family, Style, FontColor]
+    Position.X = 160
+    Position.Y = 277
+    Size.Width = 121
+    Size.Height = 21
+    EditLabel.Size.Width = 92
+    EditLabel.Size.Height = 13
+    EditLabel.Text = #1055#1086#1083#1085#1072#1103' '#1089#1090#1086#1080#1084#1086#1089#1090#1100
+    ReadOnly = True
+    TabOrder = 8
+    Text = ''
+    Visible = False
+  end
+  object Button3: TButton
+    Position.X = 328
+    Position.Y = 158
+    Size.Width = 113
+    Size.Height = 25
+    Text = #1053#1072#1095#1072#1090#1100' '#1087#1086#1089#1090#1088#1086#1081#1082#1091
+    TabOrder = 9
+    Visible = False
+    OnClick = Button3Click
+  end

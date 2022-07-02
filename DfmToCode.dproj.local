@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.919,D:\Мои программы\Delphi\Проект игра с кубиками\List_To_Tab\Unit2.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.774,D:\Мои программы\Delphi\Проект игра с кубиками\Translator_Alpha\Trans.dproj=D:\Мои программы\Delphi\Проект игра с кубиками\Translator_Alpha\Interpret.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.299,=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator Alpha2\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator pre1_r4\Translator.pas=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator pre1_r4\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.528,D:\Мои программы\Delphi\Проект игра с кубиками\DfmCode\Trans.dproj=D:\Мои программы\Delphi\Проект игра с кубиками\DfmCode\DfmToCode.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.981,D:\Андрей\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator pre1_r4\Interpret.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.343,=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator Alpha2\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.658,D:\Мои программы\Delphi\Проект игра с кубиками\List_To_Tab\Unit3.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.384,D:\Мои программы\Delphi\Проект игра с кубиками\Qsp_To_Pas_Alpha3\Translator.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,D:\Андрей\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator pre1_r4\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,D:\Андрей\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator pre1_r4\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.905,=D:\Андрей\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.370,=D:\Мои программы\Delphi\Проект игра с кубиками\Translator\Translator.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.177,=D:\Мои программы\Delphi\Проект игра с кубиками\Interpretator pre1_r4\Unit2.pas</Transaction>
+    <Transaction>2022.07.01 00:33:34.970,D:\Мои программы\Delphi\Проект игра с кубиками\Translator\Translator.pas=</Transaction>
+    <Transaction>2022.07.01 00:34:01.621,=D:\Мои программы\Delphi\Проект игра с кубиками\DfmCode\Translator.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Translator.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
