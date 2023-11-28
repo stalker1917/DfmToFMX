@@ -75,36 +75,66 @@ begin
       if c>-1 then
         begin
           a := 0;
-          for j := 4 to 8 do
+          for j := 20 to 32 do
             begin
               b := FindOperator(Input[i],j);
               if b>-1 then a := j;
             end;
           if a>0 then
             begin
+              j := 0;
               AddTText(OutPut,Input[i]);
               b := FindSpaceBar(Input[i],c);
               c := FindOperator(Input[i],2);
               if (b>-1) and (c>b) then  Name := Copy(Input[i],b+1,c-b-1)
                                   else  Name := '';
-              j := 0;
+
               case a of
-                4: //TMemo
+                20: //TMemo
                   begin
                     AddTText(OutPut,'Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]');
                     AddTText(OutPut,'DataDetectorTypes = []');
                   end;
-                5:  AddTText(OutPut,'StyledSettings = [Family, Style, FontColor]');//TLabel
-                6:  AddTText(OutPut,'Touch.InteractiveGestures = [LongTap, DoubleTap]'); //TEdit
+                21:
+                  begin
+                     AddTText(OutPut,'StyledSettings = []');//TLabel
+                     AddTText(OutPut,'HitTest = True');
+                  end;
+                22:  AddTText(OutPut,'Touch.InteractiveGestures = [LongTap, DoubleTap]'); //TEdit
+                25:  AddTText(OutPut,'HitTest = True');
               end;
               repeat
-                if (a=7) and (FindOperator(Input[i+j+1],0)>-1) then
+                if (a=23) and (FindOperator(Input[i+j+1],0)>-1) then
                   begin
                     inc(PanelCount);
                     break;
                   end;
+                if (a=25) then
+                    if (FindOperator(Input[i+j+1],4)>-1) then
+                      repeat
+                        inc(j);
+                      until (FindOperator(Input[i+j],6)>-1);  //}
                 inc(j);
                 S := Input[i+j];
+
+
+                if (a=21) or (a=20) then
+                  for k := 7 to 8 do
+                    begin
+                      b:= FindOperator(S,k);
+                      if b>-1 then
+                        S:=Substitute(S,k,k+26);
+                    end;
+                if (a=25) then
+                  for k := 39 to 40 do
+                    if FindOperator(S,k)>-1 then
+                      S:=Substitute(S,k,k+2);
+                if (a=27) then      //TrackBar
+                  begin
+                    b:= FindOperator(S,37);
+                    if b>-1 then
+                        S:=Substitute(S,37,38);
+                  end;
                 for k := 10 to 14 do
                   begin
                     b:= FindOperator(S,k);
